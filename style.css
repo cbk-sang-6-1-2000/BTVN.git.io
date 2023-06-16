@@ -1,0 +1,301 @@
+@font-face {
+  font-family: 'Fira-Light';
+  src: url('fonts/webfonts/FiraSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Fira Sans Regular';
+  src: url('fonts/webfonts/FiraSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans Bold';
+  src: url('fonts/webfonts/FiraSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Fira Sans Medium';
+  src: url('fonts/webfonts/FiraSans-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*hihi*/
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Fira-Light';
+}
+
+a {
+  transition: all 0.3s ease 0s;
+}
+
+#wrapper{
+  background: url('images/assests/background.jpg');
+}
+.container{
+  max-width: 1170px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-header .container{
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-menu li{
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-right: 25px;
+}
+
+.main-menu li:last-child{
+  margin-left: 20px;
+  margin-right: 0px;
+}
+
+.main-menu li a{
+  color: rgb(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-family: 'Fira-Light';
+}
+
+.main-menu li:hover a{
+  color: red;
+}
+
+.main-menu .login-btn a{
+  height: 40px;
+  line-height: 40px;
+  background-color: #ec5f20;
+  display: block;
+  padding: 0 42px 0 42px;
+  position: relative;
+  border-radius: 19.5px;
+}
+
+/*main*/
+.site-main{
+  height: 605px;
+}
+.top-banner .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+
+.banner-content {
+  width: 770px;
+  margin-top: 100px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.banner-content h1{
+  color: white;
+  font-size: 38px;
+  font-family: 'Fira Sans Bold';
+  margin: 0;
+}
+
+.banner-content .text{
+  margin: 40px 0px 60px 0px !important;
+  color: #c0d1cd;
+  font-size: 18px;
+  margin: 0;
+  font-family: 'Fira-Light';;
+}
+
+.banner-content .bold{
+  font-family: 'Fira Sans Bold';
+  color: white;
+}
+
+.banner-content .bold-2{
+  font-family: 'Fira Sans Medium';
+  color: white;
+  margin-bottom: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn-one p{
+  margin-bottom: 10px !important;
+}
+
+.btn-three p{
+  margin-bottom: 10px !important;
+}
+
+.content div {
+  font-size: 14px;
+  height: 140px;
+  width: 240px;
+  flex: 1;
+  margin-right: 19px;
+  background: rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #c0d1cd;
+  border-radius: 3px;
+}
+
+.content .btn-three{
+  margin-right: 0;
+}
+.btn-two span{
+  font-family: 'Fira-Light';
+  color: #c0d1cd;
+}
+.content h5,
+.content p,
+.content b {
+  margin: 0px;
+}
+
+.content h5 {
+  margin-top: -5px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: 'Fira-Light';
+  color: #c0d1cd;
+}
+
+.banner-time{
+  text-align: center;
+  width: 370px;
+  height: 450px;
+  margin-top: 50px;
+  background: rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 3px solid #13846d;
+}
+
+.banner-time h2{
+  margin: 0;
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Fira Sans Bold';
+  margin-top: 30px;
+  text-align: center;
+}
+
+.banner-time img,
+.banner-time p {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px; /* Thêm khoảng cách giữa ảnh và đoạn văn */
+}
+
+.time-banner{
+  text-align:center;
+}
+
+.medium{
+  font-family: 'Fira Sans Medium';
+  font-size: 30px;
+  color: white;
+}
+
+.time-banner p{
+  margin: 0px;
+  font-family: 'Fira Sans Regular';
+  color: #c0d1cd;
+  text-align:left;
+}
+
+hr{
+  opacity: 0.1;
+  width: 80%;
+  margin-top: 24px;
+  margin-bottom: 34px;
+}
+
+.time-banner .p-content{
+  font-size: 14px;
+}
+
+.buy-btn{
+  display: block;
+  height: 50px;
+  width: 300px;
+  background-color: #ec5f20;
+  text-decoration: none;
+  line-height: 50px;
+  margin-left: 35px;
+  border-radius: 24.5px;
+  color: #c0d1cd;
+  font-family: 'Fira Sans Regular';
+  font-size: 14px;
+}
+
+.text-3{
+  margin: 0;
+  color: #c0d1cd;
+  font-family: 'Fira Sans Regular';
+  font-size: 14px;
+  margin-top: 30px;
+  /* margin-bottom: 10px; */
+}
+
+.banner-time ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.banner-time li {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: rgba(17, 147, 117);
+}
+
+.banner-time li img {
+  margin-top: 12px;
+  margin-left: 12px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+
+.site-footer{
+  background-color: #fff;
+}
+.site-footer .container{
+  height: 120px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+

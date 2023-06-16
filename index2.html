@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header class="site-header">
+            <div class="container">
+                <div class="site-brand">
+                    <a href="#">
+                        <img src="images/assests/logo1.png" alt="">
+                    </a>
+                </div>
+
+                <nav class="main-menu">
+                    <ul>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">WHITEPAPER</a></li>
+                        <li><a href="#">ROADMAP</a></li>
+                        <li><a href="#">TEAM</a></li>
+                        <li><a href="#">BENEFITS</a></li>
+                        <li><a href="#">BUY TOKENS</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                        <li class="login-btn"><a href="tel:0934893483943">LOGIN</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="site-main">
+            <section class="top-banner">
+                 <div class="container">
+                    <div class="banner-content">
+                       <h1>Lorem Ipsum <br> is simply dummy text</h1>
+                       <p class="text">Contrary to popular belief,<span class="bold"> Lorem Ipsum</span> is not simply <br> random text. It has roots in a piece of classical Latin <br> literature from 45 BC, making it over 2000 years old.</p>
+                       <div class="content">
+                        <div class="btn-one">
+                          <h5>Participants</h5>
+                          <p class="bold-2">12345</p>
+                          <p>Min contribution: <span class="bold-2">None</span></p>
+                          <p>Max contribution: <span class="bold-2">Unlimited</span></p>
+                        </div>
+                        <div class="btn-two">
+                          <h5>We accept:</h5>
+                          <p class="bold-2">Bitcoin <span>(BTC)</span></p>
+                          <p class="bold-2">Etherium <span>(FTH)</span></p>
+                          <p class="bold-2">Binance <span>(BNB)</span></p>
+                        </div>
+                        <div class="btn-three">
+                          <h5>Rates(incl. bonus):</h5>
+                          <p>1 CSS = 0.0047 ETH</p>
+                          <p>1 ETH = 212 CSS</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="banner-time">
+                        <h2>CRYPTO SUPPER STORE</h2>
+                        <hr>
+                        <div class="time-banner">
+                            <img src="images/assests/ocl.png" alt="">
+                            <p class="p-content">ICO ENDS IN<br><span class="medium"></p></span>
+                        </div>
+                        <hr>
+                        <a class="buy-btn" href="">BUY TOKENS</a><br>
+                        <P class="text-3">CONNECT WITH US</P>
+                        <ul>
+                            <li><a href=""><img src="images/assests/icon-birth.png" alt=""></a></li>
+                            <li><a href=""><img src="images/assests/icon-2.png" alt=""></a></li>
+                            <li><a href=""><img src="images/assests/icon-in.png" alt=""></a></li>
+                            <li><a href=""><img src="images/assests/icon-pay.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                    </div>
+            </section>
+        </main>
+
+        <footer id="footer" class="site-footer">
+            <div class="container">
+                <a href=""><img src="images/assests/anh10.png" alt=""></a>
+                <a href=""><img src="images/assests/anh9.png" alt=""></a>
+                <a href=""><img src="images/assests/anh8.png" alt=""></a>
+                <a href=""><img src="images/assests/anh7.png" alt=""></a>
+                <a href=""><img src="images/assests/anh6.png" alt=""></a>
+                <a href=""><img src="images/assests/anh5.png" alt=""></a>
+                <a href=""><img src="images/assests/anh4.png" alt=""></a>
+                <a href=""><img src="images/assests/anh3.png" alt=""></a>
+                <a href=""><img src="images/assests/anh2.png" alt=""></a>
+                <a href=""><img src="images/assests/anh1.png" alt=""></a>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script>
+        $(document).ready(function() {
+    $('.medium').countdown('2023/06/27', function(event) {
+        $(this).text(event.strftime('%D:%H:%M:%S'));
+    });
+    });
+    </script>
+</body>
+</html>
