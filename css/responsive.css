@@ -1,0 +1,138 @@
+@media (min-width: 1120px) {
+    .site-main .banner-content .item {
+        flex-basis: 230px;
+    }
+
+    .icons-menu {
+        display: none;
+    }
+}
+@media (min-width: 741px) and (max-width: 1120px) {
+    .icons-menu {
+        display: none;
+    }
+
+    .site-main .banner-content .item {
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-content {
+        margin: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .banner-content br{
+        display: none;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .site-main .banner-time {
+        margin: auto;
+        width: 100%;
+        margin-top: 150px;
+    }
+
+}
+
+@media (max-width: 740px) {
+    .main-menu ul {
+        flex-direction: column;
+    }
+
+    .site-main .banner-content .item {
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .site-main .banner-content .item {
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-content {
+        margin: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .banner-content br{
+        display: none;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .site-main .banner-time {
+        margin: auto;
+        width: 100%;
+        margin-top: 150px;
+    }
+
+    .main-menu {
+        z-index: 2;
+        position: relative;
+    }
+
+
+    .icons-menu {
+        font-size: 40px;
+    }
+    
+    .main-menu ul {
+        z-index: 1;
+        display: none;
+        position: absolute;
+        right: 0;
+        background: #fff;
+        text-align: center;
+    }
+
+    .main-menu ul li {
+        margin-top: 20px;
+        margin-right: 0;
+        padding: 0 20px;
+        display: block;
+    }
+
+    .main-menu ul li:last-child {
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+    .main-menu ul li a {
+        color: black;
+    }
+
+    .main-menu ul li a:hover {
+        color: red;
+    }
+
+    .icons-menu {
+        font-size: 40px;
+    }
+
+    /* .main-menu:hover ul {
+        display: block;
+    }
+
+    .main-menu:hover .overlay {
+        display: block;
+    } */
+}
